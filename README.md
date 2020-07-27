@@ -1,3 +1,32 @@
+Etsy Clone Project (Until a better name is decided on)
+
+## User Stories
+- User can create an account
+- User can login to an account
+- User can logout of an account
+- User can create a store
+- User can create an item
+- User can view their store and items
+- User can view other stores
+- User can view another store and their items
+- User can search for other shops and items by name or tags
+- User can "purchase" an item through Paypal API
+- User can view the items they have purchased
+- User can view what items of theirs that other users have "bought"
+- User can hide a item listing of theirs
+- User can delete an item listing
+- User can hide their store
+- User can delete their store
+
+# Stretch
+- User can login with google
+- User can loging with Facebook
+- User can rate Items and stores
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
