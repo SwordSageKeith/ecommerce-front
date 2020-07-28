@@ -1,0 +1,7 @@
+.ItemGrid {
+  background-color: blueviolet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}

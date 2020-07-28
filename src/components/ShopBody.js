@@ -1,8 +1,12 @@
 import React from 'react';
 
-function ShopBody(){
+class ShopBody extends React.Component {
 
-  return (<section>
-    
-  </section>);
+  render (){
+    return <section>
+
+    </section>;
+  }
 }
+
+export default ShopBody;
