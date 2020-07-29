@@ -18,6 +18,12 @@ class ItemGrid extends React.Component {
       <ItemSmall/>
       <ItemSmall/>
       <ItemSmall/>
+      <ItemSmall/>
+      <ItemSmall/>
+      <ItemSmall/>
+      <ItemSmall/>
+      <ItemSmall/>
+      <ItemSmall/>
     </div>
   }
 }
