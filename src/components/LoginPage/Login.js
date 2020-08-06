@@ -3,6 +3,10 @@ import "./Login.css";
 
 class Login extends React.Component {
 
+  handleLogin() {
+    
+  }
+
   render () {
 
     return <div className = "loginPage">
