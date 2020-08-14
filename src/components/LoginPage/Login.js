@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css";
+import ApiService from '../../services/ApiService';
 
 class Login extends React.Component {
   constructor(props) {
@@ -19,7 +20,10 @@ class Login extends React.Component {
 
   handleLogin = (e) => {
     e.preventDefault();
-    alert ( "Username: " + this.state.username + "\n password: " + this.state.password);
+    ApiService.test()
+    .then(text => {
+      alert (text);
+    });
   }
 
   render() {
@@ -28,7 +32,7 @@ class Login extends React.Component {
         <h1>Log in with username or email</h1>
         <form className="loginform" onSubmit = {this.handleLogin}>
           <h3 name="error" value={this.state.error}></h3>
-          <label for="loginInput">
+          <label>
             <input
               type="text"
               placeholder="email / username"
@@ -41,7 +45,7 @@ class Login extends React.Component {
           </label>
 
           <br />
-          <label for="passwordInput">
+          <label>
             <input
               type="password"
               id="passwordInput"
